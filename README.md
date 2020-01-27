@@ -13,8 +13,8 @@ World: 4x4のグリッド
 7. ↙
 8. ↖
 
-####落とし穴の実装
-class State内
+#### 落とし穴の実装
+class State内  
 '''
 def generate_hole(self, actions):
     for a in actions:
