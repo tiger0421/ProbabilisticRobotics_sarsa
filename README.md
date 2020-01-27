@@ -15,11 +15,11 @@ World: 4x4のグリッド
 
 #### 落とし穴の実装
 class State内  
-'''
+```
 def generate_hole(self, actions):
     for a in actions:
         self.Q[a] = 10000
-'''
+```
 
 ### 参考
 https://github.com/ryuichiueda/probrobo2017/blob/master/09.ipynb
