@@ -14,8 +14,12 @@ World: 4x4のグリッド
 8. ↖
 
 #### 落とし穴の実装
-class State内  
 ```
+class State():
+  
+:
+:
+  
 def generate_hole(self, actions):
     for a in actions:
         self.Q[a] = 10000
@@ -24,5 +28,5 @@ def generate_hole(self, actions):
 ### 参考
 https://github.com/ryuichiueda/probrobo2017/blob/master/09.ipynb
 
-##Lisence
+## Lisence
 GNU GPL
